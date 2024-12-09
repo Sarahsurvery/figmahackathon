@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 // import localFont from "next/font/local";
-import {Lato, Joti_One} from "next/font/google";
+import {Joti_One} from "next/font/google";
 import "./globals.css";
 // import Home from "@/app/components/Main";
 import Navbar from "@/app/components/Navbar";
@@ -8,7 +8,7 @@ import Hero from "@/app/components/Hero";
 import Main from "@/app/components/Main";
 
 const joti_One = Joti_One({subsets:["latin"], weight:["400"]});
-const lato = Lato({subsets:["latin"], weight:["400","700", "900"]});
+// const lato = Lato({subsets:["latin"], weight:["400","700", "900"]});
 
 // const geistSans = localFont({
 //   src: "./fonts/GeistVF.woff",
@@ -36,8 +36,8 @@ export default function RootLayout({
       <body className={joti_One.className}>
       < Main />
       <Navbar />
-      
-      <Hero font = {lato} />
+      <Hero />
+      {/* <Hero font = {lato} /> */}
       {/* //   className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       // > */}
       
