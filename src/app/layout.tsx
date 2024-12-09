@@ -1,17 +1,25 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
+// import localFont from "next/font/local";
+import {Lato, Joti_One} from "next/font/google";
 import "./globals.css";
+// import Home from "@/app/components/Main";
+import Navbar from "@/app/components/Navbar";
+import Hero from "@/app/components/Hero";
+import Main from "@/app/components/Main";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+const joti_One = Joti_One({subsets:["latin"], weight:["400"]});
+const lato = Lato({subsets:["latin"], weight:["400","700", "900"]});
+
+// const geistSans = localFont({
+//   src: "./fonts/GeistVF.woff",
+//   variable: "--font-geist-sans",
+//   weight: "100 900",
+// });
+// const geistMono = localFont({
+//   src: "./fonts/GeistMonoVF.woff",
+//   variable: "--font-geist-mono",
+//   weight: "100 900",
+// });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -25,10 +33,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={joti_One.className}>
+      < Main />
+      <Navbar />
+      
+      <Hero font = {lato} />
+      {/* //   className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      // > */}
+      
         {children}
+        
       </body>
     </html>
   );
