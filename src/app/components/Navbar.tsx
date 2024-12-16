@@ -33,7 +33,7 @@ export default function Navbar(){
                  placeholder="Search ..."
                  className="bg-slate-100 outline-none text-sm"
             />
-        {/* <input type="text" placeholder="Search..."className="justify-around px-4 py-2 border rounded-lg" />  */}
+
         <CiSearch />
           </div>
           </div>
