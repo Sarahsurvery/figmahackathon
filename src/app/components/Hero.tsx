@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import { CiShoppingCart } from "react-icons/ci";
-import { CiHeart } from "react-icons/ci";
-import { FaSearchPlus } from "react-icons/fa";
+// import { CiShoppingCart } from "react-icons/ci";
+// import { CiHeart } from "react-icons/ci";
+// import { FaSearchPlus } from "react-icons/fa";
 
 
 
@@ -12,7 +12,7 @@ const Hero = () => {
       <div className="container mx-auto flex flex-col md:flex-row items-center md:items-start border-4 bg-gray-300">
         {/* left image */}
         <div className="w-full md:w-1/3 flex justify-center md:justify-start">
-          <img src="/lamp.png" alt="Hanging" className="w-2/3 md:w-full" />
+          <Image src="/lamp.png" alt="Hanging" className="w-2/3 md:w-full" />
         </div>
 
         {/* Text Content */}
@@ -34,7 +34,7 @@ const Hero = () => {
             Shop Now
           </button>
           <div className="w-full md:w-1/2 ml-[60%] mt-[-20%] md:justify-end">
-            <img
+            <Image
               src="/Sofaheader.png"
               alt="Sofa"
               className="w-2/3 md:w-full relative bottom-40"
