@@ -1,5 +1,5 @@
 // nextjs_tailwind_ui.js
-
+import Image from "next/image";
 import React from "react";
 
 const FeaturedProducts = () => {
@@ -8,25 +8,25 @@ const FeaturedProducts = () => {
       name: "Cantilever chair",
       code: "Y523201",
       price: "$42.00",
-      image: "/chair1.png",
+      Image: "/chair1.png",
     },
     {
       name: "Cantilever chair",
       code: "Y523201",
       price: "$42.00",
-      image: "/chair2.png",
+      Image: "/chair2.png",
     },
     {
       name: "Cantilever chair",
       code: "Y523201",
       price: "$42.00",
-      image: "/chair3.png",
+      Image: "/chair3.png",
     },
     {
       name: "Cantilever chair",
       code: "Y523201",
       price: "$42.00",
-      image: "/chair4.png",
+      Image: "/chair4.png",
     },
   ];
 
@@ -41,8 +41,9 @@ const FeaturedProducts = () => {
             key={index}
             className="relative border rounded-lg p-24 hover:underline transition-shadow group bg-white"
           >
-            <img
-              src={product.image}
+            {/* <img */}
+             <Image 
+              src={product.Image}
               alt={product.name}
               className="rounded-md mb-4 w-full h-40 object-cover"
             />

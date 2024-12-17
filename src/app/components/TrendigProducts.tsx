@@ -13,6 +13,7 @@ export default function Home() {
         <div className="flex justify-center gap-6 flex-wrap mb-12">
           {/* Product Card 1 */}
           <div className="w-56 bg-white rounded-lg shadow-lg p-4 border-2 border-purple-500 transform scale-105">
+            {/* <img */}
             <Image
               src="/chair.png"
               alt="Cantilever Chair"
@@ -31,6 +32,7 @@ export default function Home() {
 
           {/* Product Card 2 */}
           <div className="w-56 bg-white rounded-lg shadow-lg p-4">
+            {/* <img */}
             <Image
               src="/chair5.png"
               alt="Cantilever Chair"
@@ -49,6 +51,7 @@ export default function Home() {
 
           {/* Product Card 3 */}
           <div className="w-56 bg-white rounded-lg shadow-lg p-4">
+            {/* <img */}
             <Image
               src="/comfort5.png"
               alt="Cantilever Chair"
@@ -80,6 +83,7 @@ export default function Home() {
               Shop Now
             </a>
             <div className="mt-4">
+              {/* <img */}
               <Image
                 src="/imgclock.png"
                 alt="Product"
@@ -102,6 +106,7 @@ export default function Home() {
               View Collection
             </a>
             <div className="mt-4">
+              {/* <img */}
               <Image
                 src="/draw.png"
                 alt="Product"
@@ -118,6 +123,7 @@ export default function Home() {
          
           <ul className="space-x-6 w-64 h-64 -mt-72 -ml-12 bg-slate-200 rounded-lg shadow-border-2">
             <li className="flex justify-between text-gray-700 py-2">
+              {/* <img */}
               <Image
                 src="/img1.png"
                 alt="chair"
@@ -131,6 +137,7 @@ export default function Home() {
               </div>
             </li>
             <li className="flex justify-between text-gray-700">
+              {/* <img */}
               <Image
                 src="/img2.png"
                 alt="chair"
@@ -144,6 +151,7 @@ export default function Home() {
               </div>
             </li>
             <li className="flex justify-between text-gray-700">
+              {/* <img */}
               <Image
                 src="/img3.png"
                 alt="chair"

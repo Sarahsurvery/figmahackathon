@@ -10,6 +10,7 @@ import LeatestProducts from "@/app/components/LeatestProducts";
 import Offer from "./components/shopex";
 import TrendingProducts from "@/app/components/TrendigProducts";
 import Discount from "@/app/components/Discount";
+import EcommerceAcessories from "@/app/components/EcommerceAcessories";
 
 const joti_One = Joti_One({subsets:["latin"], weight:["400"]});
 // const lato = Lato({subsets:["latin"], weight:["400","700", "900"]});
@@ -46,6 +47,7 @@ export default function RootLayout({
       <Offer />
       <TrendingProducts />
       <Discount />
+      <EcommerceAcessories />
       {/* <Hero font = {lato} /> */}
       {/* //   className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       // > */}

@@ -48,6 +48,7 @@ export default function Home() {
 
         <div className="md:w-1/2 flex justify-center mt-6 md:mt-32">
           <div className="relative w-96 h-96">
+            {/* <img */}
             <Image
               src="/tortuga.png" // Add your image in public folder
               alt="Eams Sofa Compact"
@@ -67,7 +68,8 @@ export default function Home() {
           {/* Chair Card 1 */}
           <div className="text-center">
             <div className="w-32 h-32 relative rounded border bg-slate-200 mx-auto -mt-40 ml-[350%]">
-              <Image
+              {/* <img */}
+               <Image
                 src="/image 31.png" // Replace with actual image paths
                 alt="Mini LCW Chair"
                 layout="fill"
@@ -81,7 +83,8 @@ export default function Home() {
           {/* Chair Card 2 */}
           <div className="text-center bg-slate-200 border -ml-48">
             <div className="w-32 h-32 relative mx-auto">
-              <Image
+              {/* <img */}
+               <Image
                 src="/image 20.png"
                 alt="Mini LCW Chair"
                 layout="fill"
@@ -95,7 +98,8 @@ export default function Home() {
           {/* Chair Card 3 */}
           <div className="text-center border-2">
             <div className="w-32 h-32 relative mx-auto">
-              <Image
+              {/* <img */}
+               <Image
                 src="/chair1.png"
                 alt="Mini LCW Chair"
                 layout="fill"
@@ -109,7 +113,8 @@ export default function Home() {
           {/* Chair Card 4 */}
           <div className="text-center border-2">
             <div className="w-32 h-32 relative mx-auto">
-              <Image
+              {/* <img */}
+               <Image
                 src="/chair.png"
                 alt="Mini LCW Chair"
                 layout="fill"
@@ -123,7 +128,8 @@ export default function Home() {
           {/* Chair Card 5 */}
           <div className="text-center border-2">
             <div className="w-32 h-32 relative mx-auto">
-              <Image
+              {/* <img */}
+               <Image
                 src="/image 20.png"
                 alt="Mini LCW Chair"
                 layout="fill"
@@ -136,7 +142,8 @@ export default function Home() {
         </div>
         <div className="text-center p-4">
           <div className="w-full h-96 relative mx-auto">
-            <Image
+            {/* <img */}
+             <Image
               src="/Rectangle.png"
               alt="Mini LCW Chair"
               layout="fill"
@@ -152,9 +159,10 @@ export default function Home() {
             </button>
           </div>
         </div>
-        <div className="text-center border-4 bg-gray-300 px-4 ">
-          <div className="w-full h-32 relative mx-auto">
-            <Image
+        <div className="text-center border-4 bg-gray-300 px-4">
+          <div className="w-full h-32 relative mx-auto ">
+            {/* <img */}
+             <Image
               src="/image 1174.png"
               alt="Mini LCW Chair"
               layout="fill"
@@ -169,7 +177,8 @@ export default function Home() {
           </h1>
         </div>
         <div className="flex justify-center -ml-[64%] p-4 border-2">
-          <div className="relative w-52 h-96 -mt-10 -top-20">
+          <div className="relative w-52 h-96 -mt-1">
+            {/* <img */}
             <Image
               src="/JIUjvqe2ZHg.png" // Add your image in public folder
               alt="Long Sofa"
@@ -194,6 +203,7 @@ export default function Home() {
 
         <div className="flex justify-center -ml-32 -mt-56">
           <div className="relative w-52 h-60 -mt-24 -top-20">
+            {/* <img */}
             <Image
               src="/2dcYhvbHV.png" // Add your image in public folder
               alt="Long Sofa"
@@ -217,7 +227,8 @@ export default function Home() {
         </div>
 
         <div className="flex justify-center ml-[40%] p-2">
-          <div className="relative w-52 h-96 -mt-80 -top-20">
+          <div className="relative w-52 h-96 -mt-80">
+            {/* <img */}
             <Image
               src="/2dcYhvbHV-M.png" // Add your image in public folder
               alt="Long Sofa"

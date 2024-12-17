@@ -1,15 +1,15 @@
 // nextjs_tailwind_ui.js
-
+import Image from 'next/image';
 import React from 'react';
 
 const LeatestProducts = () => {
   const products = [
-    { name: 'Comfort Handy Craft', price: '$42.00 , $65.00', image: '/comfort1.png' },
-    { name: 'Comfort Handy Craft', price: '$42.00 $65.00', image: '/comfort2.png' },
-    { name: 'Comfort Handy Craft',  price: '$42.00 $65.00', image: '/chair1.png' },
-    { name: 'Comfort Handy Craft', price: '$42.00 , $65.00', image: '/comfort4.png' },
-    { name: 'Comfort Handy Craft', price: '$42.00 $65.00', image: '/comfort5.png' },
-    { name: 'Comfort Handy Craft',  price: '$42.00 $65.00', image: '/chair4.png' },
+    { name: 'Comfort Handy Craft', price: '$42.00 , $65.00', Image: '/comfort1.png' },
+    { name: 'Comfort Handy Craft', price: '$42.00 $65.00', Image: '/comfort2.png' },
+    { name: 'Comfort Handy Craft',  price: '$42.00 $65.00', Image: '/chair1.png' },
+    { name: 'Comfort Handy Craft', price: '$42.00 , $65.00', Image: '/comfort4.png' },
+    { name: 'Comfort Handy Craft', price: '$42.00 $65.00', Image: '/comfort5.png' },
+    { name: 'Comfort Handy Craft',  price: '$42.00 $65.00', Image: '/chair4.png' },
   ];
 
   return (
@@ -41,14 +41,9 @@ const LeatestProducts = () => {
             key={index}
             className="relative border rounded- px-32 hover:shadow-lg transition-shadow group bg-white"
           >
-
-             {/* <Image
-                          src="/Sofaheader.png"
-                          alt="Sofa"
-                          className="w-2/3 md:w-full relative bottom-40"
-                        /> */}
-            <img
-              src={product.image}
+            {/* <img */}
+            <Image 
+              src={product.Image}
               alt={product.name}
               className="rounded-md mb-2 w-full h-40 object-cover"
             />
