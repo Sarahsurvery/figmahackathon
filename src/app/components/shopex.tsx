@@ -44,7 +44,8 @@ export default function Home() {
 
           {/* Card 4 */}
           <div className="w-56 bg-white p-6 shadow border-2 rounded-lg">
-            <img src="/clock.png" alt="Support" width={80} height={50} className="ml-14"/>
+            {/* <img src="/clock.png" alt="Support" width={80} height={50} className="ml-14"/> */}
+            <Image src="/clock.png" alt="Support" width={80} height={50} className="ml-14"/>
             <h3 className="text-lg font-semibold mt-4">24/7 Support</h3>
             <p className="text-sm text-gray-500 mt-2">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa

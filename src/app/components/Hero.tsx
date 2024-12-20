@@ -1,8 +1,5 @@
 import React from "react";
 import Image from "next/image";
-// import { CiShoppingCart } from "react-icons/ci";
-// import { CiHeart } from "react-icons/ci";
-// import { FaSearchPlus } from "react-icons/fa";
 
 
 
@@ -18,7 +15,7 @@ const Hero = () => {
 
         {/* Text Content */}
 
-        <div className="w-full md:w-2/3 py-[12%] ml-[-8%] text-center md:text-left">
+        <div className="w-full md:w-2/3 py-28 ml-[-8%] text-center md:text-left">
           <p className="text-pink-500 font-medium">
             Best Furniture For Your Castle
           </p>
@@ -36,7 +33,7 @@ const Hero = () => {
           </button>
           <div className="w-full md:w-1/2 ml-[60%] mt-[-20%] md:justify-end">
             {/* <img */}
-             <Image 
+             <Image  
               src="/Sofaheader.png"
               alt="Sofa"
               className="w-2/3 md:w-full relative bottom-40"

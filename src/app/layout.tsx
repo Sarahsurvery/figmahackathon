@@ -2,15 +2,7 @@ import type { Metadata } from "next";
 // import localFont from "next/font/local";
 import {Joti_One} from "next/font/google";
 import "./globals.css";
-import Main from "@/app/components/Main";
-import Navbar from "@/app/components/Navbar";
-import Hero from "@/app/components/Hero";
-import FeaturedProducts from "@/app/components/FeaturedProducts";
-import LeatestProducts from "@/app/components/LeatestProducts";
-import Offer from "./components/shopex";
-import TrendingProducts from "@/app/components/TrendigProducts";
-import Discount from "@/app/components/Discount";
-import EcommerceAcessories from "@/app/components/EcommerceAcessories";
+
 
 const joti_One = Joti_One({subsets:["latin"], weight:["400"]});
 // const lato = Lato({subsets:["latin"], weight:["400","700", "900"]});
@@ -39,19 +31,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={joti_One.className}>
-      < Main />
-      <Navbar />
-      <Hero />
-      <FeaturedProducts />
-      <LeatestProducts />
-      <Offer />
-      <TrendingProducts />
-      <Discount />
-      <EcommerceAcessories />
+         
       {/* <Hero font = {lato} /> */}
       {/* //   className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       // > */}
-      
+         
         {children}
         
       </body>

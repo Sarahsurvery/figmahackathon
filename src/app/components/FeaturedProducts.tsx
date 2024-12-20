@@ -1,4 +1,5 @@
 // nextjs_tailwind_ui.js
+
 import Image from "next/image";
 import React from "react";
 

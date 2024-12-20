@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { FaInstagramSquare } from "react-icons/fa";
-import { CiTwitter,CiFacebook } from "react-icons/ci"; 
+import { CiTwitter, CiFacebook } from "react-icons/ci";
 
 export default function Home() {
   return (
@@ -69,7 +69,7 @@ export default function Home() {
           <div className="text-center">
             <div className="w-32 h-32 relative rounded border bg-slate-200 mx-auto -mt-40 ml-[350%]">
               {/* <img */}
-               <Image
+              <Image
                 src="/image 31.png" // Replace with actual image paths
                 alt="Mini LCW Chair"
                 layout="fill"
@@ -84,7 +84,7 @@ export default function Home() {
           <div className="text-center bg-slate-200 border -ml-48">
             <div className="w-32 h-32 relative mx-auto">
               {/* <img */}
-               <Image
+              <Image
                 src="/image 20.png"
                 alt="Mini LCW Chair"
                 layout="fill"
@@ -99,7 +99,7 @@ export default function Home() {
           <div className="text-center border-2">
             <div className="w-32 h-32 relative mx-auto">
               {/* <img */}
-               <Image
+              <Image
                 src="/chair1.png"
                 alt="Mini LCW Chair"
                 layout="fill"
@@ -114,7 +114,7 @@ export default function Home() {
           <div className="text-center border-2">
             <div className="w-32 h-32 relative mx-auto">
               {/* <img */}
-               <Image
+              <Image
                 src="/chair.png"
                 alt="Mini LCW Chair"
                 layout="fill"
@@ -129,7 +129,7 @@ export default function Home() {
           <div className="text-center border-2">
             <div className="w-32 h-32 relative mx-auto">
               {/* <img */}
-               <Image
+              <Image
                 src="/image 20.png"
                 alt="Mini LCW Chair"
                 layout="fill"
@@ -143,7 +143,7 @@ export default function Home() {
         <div className="text-center p-4">
           <div className="w-full h-96 relative mx-auto">
             {/* <img */}
-             <Image
+            <Image
               src="/Rectangle.png"
               alt="Mini LCW Chair"
               layout="fill"
@@ -162,7 +162,7 @@ export default function Home() {
         <div className="text-center border-4 bg-gray-300 px-4">
           <div className="w-full h-32 relative mx-auto ">
             {/* <img */}
-             <Image
+            <Image
               src="/image 1174.png"
               alt="Mini LCW Chair"
               layout="fill"
@@ -171,13 +171,13 @@ export default function Home() {
           </div>
         </div>
         {/* Leatest Blog */}
-        <div className="md:w-1/2 py-16">
+        <div className="md:w-1/2 p-2 m-3">
           <h1 className="text-3xl text-center ml-[70%] hover:underline text-blue-900">
             Leatest Blog{" "}
           </h1>
         </div>
-        <div className="flex justify-center -ml-[64%] p-4 border-2">
-          <div className="relative w-52 h-96 -mt-1">
+        <div className="flex justify-center -ml-[64%] border-2">
+          <div className="relative w-52 h-96 -mt-24 -top-2">
             {/* <img */}
             <Image
               src="/JIUjvqe2ZHg.png" // Add your image in public folder
@@ -187,21 +187,21 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="flex items-center -ml-48">
-          <p className="ml-80 -mt-96">Saber Ali | 21 August 2020</p>
-          <p className="text-xs text-blue-700 underline -mt-[24%] -ml-52">
+        <div className="flex items-center -ml-48 p-5">
+          <p className="ml-72 -mt-64">Saber Ali | 21 August 2020</p>
+          <p className="text-xs text-blue-700 underline -mt-[16%] -ml-52">
             Top esssential Trends in 2021
           </p>
-          <p className="text-xs text-slate-500 -mt-[20%] -ml-44 w-1/5">
+          <p className="text-xs text-slate-500 -mt-[12%] -ml-44 w-1/5">
             More off this less hello samlande lied much over tightly circa horse
             taped mightly
           </p>
-          <button className="text-blue-700 text-xs underline bg-white -mt-52 -ml-72 border-2 border-black">
+          <button className="text-blue-700 text-xs underline bg-white -mt-28 -ml-72 border-2 border-black">
             Read More
           </button>
         </div>
 
-        <div className="flex justify-center -ml-32 -mt-56">
+        <div className="flex justify-center -ml-32 -mt-48">
           <div className="relative w-52 h-60 -mt-24 -top-20">
             {/* <img */}
             <Image
@@ -227,7 +227,7 @@ export default function Home() {
         </div>
 
         <div className="flex justify-center ml-[40%] p-2">
-          <div className="relative w-52 h-96 -mt-80">
+          <div className="relative w-52 h-96 -mt-28 -top-72">
             {/* <img */}
             <Image
               src="/2dcYhvbHV-M.png" // Add your image in public folder
@@ -238,85 +238,83 @@ export default function Home() {
           </div>
         </div>
         <div className="flex items-center -ml-48">
-          <p className="ml-[66%] -mt-96">Saber Ali | 21 August 2020</p>
-          <p className="text-xs text-blue-700 underline -mt-[24%] -ml-52">
+          <p className="ml-[66%] -mt-[55%]">Saber Ali | 21 August 2020</p>
+          <p className="text-xs text-blue-700 underline -mt-[53%] -ml-52">
             Top esssential Trends in 2021
           </p>
-          <p className="text-xs text-slate-500 -mt-[20%] -ml-44 w-1/5">
+          <p className="text-xs text-slate-500 -mt-[50%] -ml-44 w-1/5">
             More off this less hello samlande lied much over tightly circa horse
             taped mightly
           </p>
-          <button className="text-blue-700 text-xs underline bg-white -mt-52 -ml-72 border-2 border-black">
+          <button className="text-blue-700 text-xs underline bg-white -mt-[46%] -ml-72 border-2 border-black">
             Read More
           </button>
         </div>
 
         {/* Footer Section */}
 
-        <div className="container mx-auto flex flex-col md:flex-row items-center md:items-start border-4 bg-gray-300 m-2 w-full">
-          <div className="w-full md:w-2/3 py-[12%] ml-[-8%] text-center md:text-left">
-            <h1 className="text-2xl ml-64 -mt-32">Heckto</h1>
-            <p className="text-xs ml-72 mt-4 hover:underline text-gray-500">
-              Enter Email Address
-            </p>
-            <button className="bg-red-500 hover:bg-blue-800 ml-[55%] -mt-20 px-4 rounded">
-              Shop Now
-            </button>
-            <p className="text-xs ml-72 mt-4 text-gray-500">Contact Info</p>
-            <p className="text-xs ml-72 mt-4 text-gray-500">
-              17 Princess Road, London, Greater London NW1 8JR, UK
-            </p>
-          </div>
-        </div>
-        <div className="w-full md:w-2/3 ml-[30%] -mt-80 text-center md:text-left">
-          <h1 className="text-2xs ml-[24%] -mt-40 p-2">Categories</h1>
-          <ul className="text-gray-600 ml-48 text-xs">
-            <li className="mb-2">Laptops & Computers</li>
-            <li className="mb-4">Cameras & Photography</li>
-            <li className="mb-4">Smart Phones & Tablets</li>
-            <li className="mb-4">Video Games & Consoles</li>
-            <li className="mb-4">Waterproof Headphones</li>
-          </ul>
-        </div>
-
-        <div className="w-full md:w-2/3 ml-[50%] -mt-[30%] text-center md:text-left">
-          <h1 className="text-2xs ml-[20%] mt-[23%] p-2">Customer Care</h1>
-          <ul className="text-gray-600 ml-48 text-xs">
-            <li className="mb-2">My Account</li>
-            <li className="mb-4">Discount</li>
-            <li className="mb-4">Returns</li>
-            <li className="mb-4">Orders History</li>
-            <li className="mb-4">Order Tracking</li>
-          </ul>
-        </div>
-
-        <div className="w-full md:w-2/3 ml-[65%] -mt-[30%] text-center md:text-left">
-          <h1 className="text-2xs ml-[24%] mt-[23%] p-2">Pages</h1>
-          <ul className="text-gray-600 ml-48 text-xs">
-            <li className="mb-2"> Blog</li>
-            <li className="mb-4">Browse the Shop</li>
-            <li className="mb-4">Category</li>
-            <li className="mb-4">Pre-Built Pages</li>
-            <li className="mb-4">Visual Composer Elements</li>
-            <li className="mb-4">WooCommerce Pages</li>
-          </ul>
-
-          <div className="w-full md:w-2/3 ml-[65%] -mt-[30%] text-center md:text-left">
-          <p className="text-slate-500 mt-80 -ml-[195%]">©Webecy - All Rights Reserved</p>
-         
-          <div className="flex space-x-4 -ml-72 -mt-5">
-      
-        <CiFacebook className="h-6 w-6 text-blue-500 hover:text-blue-700" />
-     
-        <FaInstagramSquare className="h-6 w-6 text-pink-500 hover:text-pink-700" />
-     
-      <CiTwitter  className="h-6 w-6 text-pink-500 hover:text-pink-700" />
-      
-    </div>
-          
-          </div>
-        </div>
-
+       <div className="container mx-auto flex flex-col md:flex-row items-center md:items-start border-4 bg-gray-300 -mt-48 w-full">
+                 <div className="w-full md:w-2/3 py-[12%] ml-[-8%] text-center md:text-left">
+                   <h1 className="text-2xl ml-64 -mt-32">Heckto</h1>
+                   <p className="text-xs ml-72 mt-4 hover:underline text-gray-500">
+                     Enter Email Address
+                   </p>
+                   <button className="bg-red-500 hover:bg-blue-800 ml-[55%] -mt-20 px-4 rounded">
+                     Shop Now
+                   </button>
+                   <p className="text-xs ml-72 mt-4 text-gray-500">Contact Info</p>
+                   <p className="text-xs ml-72 mt-4 text-gray-500">
+                     17 Princess Road, London, Greater London NW1 8JR, UK
+                   </p>
+                 </div>
+               </div>
+               <div className="w-full md:w-2/3 ml-[30%] -mt-80 text-center md:text-left">
+                 <h1 className="text-2xs ml-[24%] -mt-40 p-2">Categories</h1>
+                 <ul className="text-gray-600 ml-48 text-xs">
+                   <li className="mb-2">Laptops & Computers</li>
+                   <li className="mb-4">Cameras & Photography</li>
+                   <li className="mb-4">Smart Phones & Tablets</li>
+                   <li className="mb-4">Video Games & Consoles</li>
+                   <li className="mb-4">Waterproof Headphones</li>
+                 </ul>
+               </div>
+       
+               <div className="w-full md:w-2/3 ml-[50%] -mt-[30%] text-center md:text-left">
+                 <h1 className="text-2xs ml-[20%] mt-[23%] p-2">Customer Care</h1>
+                 <ul className="text-gray-600 ml-48 text-xs">
+                   <li className="mb-2">My Account</li>
+                   <li className="mb-4">Discount</li>
+                   <li className="mb-4">Returns</li>
+                   <li className="mb-4">Orders History</li>
+                   <li className="mb-4">Order Tracking</li>
+                 </ul>
+               </div>
+       
+               <div className="w-full md:w-2/3 ml-[65%] -mt-[30%] text-center md:text-left">
+                 <h1 className="text-2xs ml-[24%] mt-[23%] p-2">Pages</h1>
+                 <ul className="text-gray-600 ml-48 text-xs">
+                   <li className="mb-2"> Blog</li>
+                   <li className="mb-4">Browse the Shop</li>
+                   <li className="mb-4">Category</li>
+                   <li className="mb-4">Pre-Built Pages</li>
+                   <li className="mb-4">Visual Composer Elements</li>
+                   <li className="mb-4">WooCommerce Pages</li>
+                  </ul>
+       
+                 <div className="w-full md:w-2/3 ml-[65%] -mt-[30%] text-center md:text-left">
+                   <p className="text-slate-500 mt-80 -ml-[195%]">
+                     ©Webecy - All Rights Reserved
+                   </p>
+       
+                   <div className="flex space-x-4 -ml-72 -mt-5">
+                     <CiFacebook className="h-6 w-6 text-blue-500 hover:text-blue-700" />
+       
+                     <FaInstagramSquare className="h-6 w-6 text-pink-500 hover:text-pink-700" />
+       
+                     <CiTwitter className="h-6 w-6 text-pink-500 hover:text-pink-700" />
+                   </div>
+                 </div>
+               </div>
       </section>
     </div>
   );

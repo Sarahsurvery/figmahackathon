@@ -1,15 +1,9 @@
-"use client";
 import Image from "next/image";
 import React from "react";
-// import Link from "next/link";
-// import { Main } from "next/document";
+ import Link from "next/link";
 import Navbar from "@/app/components/Navbar";
-import { FaRegEnvelope } from "react-icons/fa6";
-import { FaPhoneVolume } from "react-icons/fa6";
 import { RiArrowDropDownLine } from "react-icons/ri";
-import { CiUser } from "react-icons/ci";
-import { CiHeart } from "react-icons/ci";
-import { IoCartOutline } from "react-icons/io5";
+
 import { FaInstagramSquare } from "react-icons/fa";
 import { CiTwitter, CiFacebook } from "react-icons/ci";
 
@@ -93,43 +87,20 @@ export default function Acessories() {
   return (
     <section>
       <div className="font-sans">
-        <header className="flex justify-between items-center bg-purple-500 shadow-md">
-          <div className="text-2x font-bold text-white flex flex-row ml-80">
-            <FaRegEnvelope className="flex flex-row ml-[-80%] my-[1.5%]" />
-            mhhasanul@gmail.com
-          </div>
-          <div className="text-2x flex flex-row py-2 font-bold text-white mr-[100%] justify-center">
-            <FaPhoneVolume className="flex flex-row ml-[-50%] my-1" />
-            (12345)67890
-            <div className="flex flex-row px-40">
-              English
-              <RiArrowDropDownLine className="flex flex-row my-1" />
-            </div>
-            <div className="flex flex-rowitems-baseline ml-[-16%]">
-              US
-              <RiArrowDropDownLine className="flex flex-row my-1" />
-            </div>
-            <div className="flex flex-row px-10 ml-[-3%]">
-              Login
-              <CiUser className="flex flex-row my-1" />
-            </div>
-            <div className="flex flex-row px-10 ml-[-8%]">
-              Wishlist
-              <CiHeart className="flex flex-row text-xl my-1" />
-            </div>
-            <IoCartOutline className="flex flex-row text-xl mt-1 ml-[-4%]" />
-          </div>
-        </header>
+        
         <Navbar />
         <div className="w-full md:w-2/3 text-center md:text-left rounded-lg">
           <h1 className="text-pink-500 font-normal ml-52 mt-28 rounded-lg">
             Shop Grid Default
           </h1>
-
           <p className="text-xs text-grey-800 ml-44">Home</p>
           <p className="text-xs text-grey-800 -mt-4 ml-60">Pages</p>
           <p className="text-xs text-pink-500 -mt-4 ml-72">Shop Grid Default</p>
-        </div>
+       
+          <Link href="/List" className="text-slate-600 hover:text-pink-500 underline">
+            <div className="-mt-6 ml-[96%] text-2xl font-bold">shoplist</div>
+            </Link>
+            </div>
       </div>
 
 
@@ -246,7 +217,7 @@ export default function Acessories() {
             <li className="mb-4">Pre-Built Pages</li>
             <li className="mb-4">Visual Composer Elements</li>
             <li className="mb-4">WooCommerce Pages</li>
-          </ul>
+           </ul>
 
           <div className="w-full md:w-2/3 ml-[65%] -mt-[30%] text-center md:text-left">
             <p className="text-slate-500 mt-80 -ml-[195%]">
