@@ -77,7 +77,7 @@ export default function Shoplist() {
         <div className="flex justify-start p-10 m-8 -ml-24 border-2">
           {/* <img */}
              <Image
-            src="/Shop2.png"
+            src="/shop2.png"
             alt="Drawingroom"
             // Layout="fill"
             // ObjectFit="contain"
@@ -101,7 +101,7 @@ export default function Shoplist() {
         <div className="flex justify-start p-10 m-8 -ml-24 border-2">
           {/* <img */}
              <Image
-            src="/Shop3.png"
+            src="/shop3.png"
             alt="Drawingroom"
             // Layout="fill"
             // ObjectFit="contain"
@@ -125,7 +125,7 @@ export default function Shoplist() {
         <div className="flex justify-start p-10 m-8 -ml-24 border-2">
           {/* <img */}
              <Image
-            src="/Shop4.png"
+            src="/shop4.png"
             alt="Drawingroom"
             // Layout="fill"
             // ObjectFit="contain"
@@ -149,7 +149,7 @@ export default function Shoplist() {
         <div className="flex justify-start p-10 m-8 -ml-24 border-2">
           {/* <img */}
              <Image
-            src="/Shop5.png"
+            src="/shop5.png"
             alt="Drawingroom"
             // Layout="fill"
             // ObjectFit="contain"
@@ -173,7 +173,7 @@ export default function Shoplist() {
         <div className="flex justify-start p-10 m-8 -ml-24 border-2">
           {/* <img */}
              <Image
-            src="/Shop6.png"
+            src="/shop6.png"
             alt="Drawingroom"
             // Layout="fill"
             // ObjectFit="contain"
@@ -197,7 +197,7 @@ export default function Shoplist() {
         <div className="flex justify-start p-10 m-8 -ml-24 border-2">
           {/* <img */}
              <Image
-            src="/Shop7.png"
+            src="/shop7.png"
             alt="Drawingroom"
             // Layout="fill"
             // ObjectFit="contain"
