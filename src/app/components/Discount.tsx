@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <div className="container mx-auto p-4">
       {/* Discount Section */}
-      <section className="bg-white text-gray-800 py-12 md:flex md:items-center">
-        <div className="md:w-1/1">
+      <section className="bg-white text-gray-800 py-12 md:flex md:items-center border-2">
+        <div className="md:w-1/2">
           <h1 className="text-3xl text-center ml-[68%] hover:underline">
             Discount Items{" "}
           </h1>
@@ -49,11 +49,11 @@ export default function Home() {
         <div className="md:w-1/2 flex justify-center mt-6 md:mt-32">
           <div className="relative w-96 h-96">
             {/* <img */}
-            <Image
+             <Image
               src="/tortuga.png" // Add your image in public folder
               alt="Eams Sofa Compact"
-              layout="fill"
-              objectFit="contain"
+              // layout="fill"
+              // objectFit="contain"
             />
           </div>
         </div>
@@ -69,11 +69,11 @@ export default function Home() {
           <div className="text-center">
             <div className="w-32 h-32 relative rounded border bg-slate-200 mx-auto -mt-40 ml-[350%]">
               {/* <img */}
-              <Image
+               <Image
                 src="/image 31.png" // Replace with actual image paths
                 alt="Mini LCW Chair"
-                layout="fill"
-                objectFit="contain"
+                // layout="fill"
+                // objectFit="contain"
               />
             </div>
             {/* <h3 className="mt-4 font-semibold">Mini LCW Chair</h3> */}
@@ -84,11 +84,11 @@ export default function Home() {
           <div className="text-center bg-slate-200 border -ml-48">
             <div className="w-32 h-32 relative mx-auto">
               {/* <img */}
-              <Image
+               <Image
                 src="/image 20.png"
                 alt="Mini LCW Chair"
-                layout="fill"
-                objectFit="contain"
+                // layout="fill"
+                // objectFit="contain"
               />
             </div>
             <h3 className="mt-4 font-semibold">Mini LCW Chair</h3>
@@ -99,11 +99,11 @@ export default function Home() {
           <div className="text-center border-2">
             <div className="w-32 h-32 relative mx-auto">
               {/* <img */}
-              <Image
+               <Image
                 src="/chair1.png"
                 alt="Mini LCW Chair"
-                layout="fill"
-                objectFit="contain"
+                // layout="fill"
+                // objectFit="contain"
               />
             </div>
             <h3 className="mt-4 font-semibold">Mini LCW Chair</h3>
@@ -114,11 +114,11 @@ export default function Home() {
           <div className="text-center border-2">
             <div className="w-32 h-32 relative mx-auto">
               {/* <img */}
-              <Image
+               <Image
                 src="/chair.png"
                 alt="Mini LCW Chair"
-                layout="fill"
-                objectFit="contain"
+                // layout="fill"
+                // objectFit="contain"
               />
             </div>
             <h3 className="mt-4 font-semibold">Mini LCW Chair</h3>
@@ -129,11 +129,11 @@ export default function Home() {
           <div className="text-center border-2">
             <div className="w-32 h-32 relative mx-auto">
               {/* <img */}
-              <Image
+               <Image
                 src="/image 20.png"
                 alt="Mini LCW Chair"
-                layout="fill"
-                objectFit="contain"
+                // layout="fill"
+                // objectFit="contain"
               />
             </div>
             <h3 className="mt-4 font-semibold">Mini LCW Chair</h3>
@@ -143,11 +143,11 @@ export default function Home() {
         <div className="text-center p-4">
           <div className="w-full h-96 relative mx-auto">
             {/* <img */}
-            <Image
+             <Image
               src="/Rectangle.png"
               alt="Mini LCW Chair"
-              layout="fill"
-              objectFit="contain"
+              // layout="fill"
+              // objectFit="contain"
             />
           </div>
           <div className="relative bottom-52 left-1/2 transform -translate-x-1/2 -translate-y-1 text-center text-white">
@@ -159,101 +159,101 @@ export default function Home() {
             </button>
           </div>
         </div>
-        <div className="text-center border-4 bg-gray-300 px-4">
-          <div className="w-full h-32 relative mx-auto ">
+        <div className="text-center border-4 bg-gray-300 -mt-14 px-4">
+          <div className="w-full h-32 relative mx-auto">
             {/* <img */}
             <Image
               src="/image 1174.png"
               alt="Mini LCW Chair"
-              layout="fill"
-              objectFit="contain"
+              // layout="fill"
+              // objectFit="contain"
             />
           </div>
         </div>
         {/* Leatest Blog */}
-        <div className="md:w-1/2 p-2 m-3">
+        <div className="md:w-1/2 p-2 m-10">
           <h1 className="text-3xl text-center ml-[70%] hover:underline text-blue-900">
             Leatest Blog{" "}
           </h1>
         </div>
-        <div className="flex justify-center -ml-[64%] border-2">
-          <div className="relative w-52 h-96 -mt-24 -top-2">
+        <div className="flex justify-center -ml-[62%] border-2 p-20">
+          <div className="relative w-52 h-96 -top-2">
             {/* <img */}
             <Image
               src="/JIUjvqe2ZHg.png" // Add your image in public folder
               alt="Long Sofa"
-              layout="fill"
-              objectFit="contain"
+              // layout="fill"
+              // objectFit="contain"
             />
           </div>
         </div>
-        <div className="flex items-center -ml-48 p-5">
-          <p className="ml-72 -mt-64">Saber Ali | 21 August 2020</p>
-          <p className="text-xs text-blue-700 underline -mt-[16%] -ml-52">
+        <div className="flex items-center -ml-48">
+          <p className="ml-[22%] -mt-[44%] p-2">Saber Ali | 21 August 2020</p>
+          <p className="text-xs text-blue-700 underline -mt-[42%] -ml-52">
             Top esssential Trends in 2021
           </p>
-          <p className="text-xs text-slate-500 -mt-[12%] -ml-44 w-1/5">
+          <p className="text-xs text-slate-500 -mt-[38%] -ml-44 w-1/5">
             More off this less hello samlande lied much over tightly circa horse
             taped mightly
           </p>
-          <button className="text-blue-700 text-xs underline bg-white -mt-28 -ml-72 border-2 border-black">
+          <button className="text-blue-700 text-xs underline bg-white -mt-[32%] -ml-72 border-2 border-black">
             Read More
           </button>
         </div>
 
-        <div className="flex justify-center -ml-32 -mt-48">
+        <div className="flex justify-center -ml-32 -mt-[24%]">
           <div className="relative w-52 h-60 -mt-24 -top-20">
             {/* <img */}
             <Image
               src="/2dcYhvbHV.png" // Add your image in public folder
               alt="Long Sofa"
-              layout="fill"
-              objectFit="contain"
+              // layout="fill"
+              // objectFit="contain"
             />
           </div>
         </div>
         <div className="flex items-center ml-48">
-          <p className="ml-64 -mt-60">Saber Ali | 21 August 2020</p>
-          <p className="text-xs text-blue-700 underline -mt-52 -ml-52">
+          <p className="ml-64 -mt-[32%]">Saber Ali | 21 August 2020</p>
+          <p className="text-xs text-blue-700 underline -mt-[29%] -ml-52">
             Top esssential Trends in 2021
           </p>
-          <p className="text-xs text-slate-500 -mt-32 -ml-44 w-1/5">
+          <p className="text-xs text-slate-500 -mt-[23%] -ml-44 w-1/5">
             More off this less hello samlande lied much over tightly circa horse
             taped mightly
           </p>
-          <button className="text-blue-700 text-xs underline bg-white -mt-14 -ml-52 border-2 border-black">
+          <button className="text-blue-700 text-xs underline bg-white -mt-[14%] -ml-52 border-2 border-black">
             Read More
           </button>
         </div>
 
-        <div className="flex justify-center ml-[40%] p-2">
-          <div className="relative w-52 h-96 -mt-28 -top-72">
+        <div className="flex justify-center ml-[40%]">
+          <div className="relative w-52 h-96 -mt-[32%] -top-20">
             {/* <img */}
-            <Image
+             <Image
               src="/2dcYhvbHV-M.png" // Add your image in public folder
               alt="Long Sofa"
-              layout="fill"
-              objectFit="contain"
+              // layout="fill"
+              // objectFit="contain"
             />
           </div>
         </div>
-        <div className="flex items-center -ml-48">
+        <div className="flex items-center -ml-48 p-14">
           <p className="ml-[66%] -mt-[55%]">Saber Ali | 21 August 2020</p>
           <p className="text-xs text-blue-700 underline -mt-[53%] -ml-52">
             Top esssential Trends in 2021
           </p>
-          <p className="text-xs text-slate-500 -mt-[50%] -ml-44 w-1/5">
+          <p className="text-xs text-slate-500 -mt-[49%] -ml-44 w-1/5">
             More off this less hello samlande lied much over tightly circa horse
             taped mightly
           </p>
-          <button className="text-blue-700 text-xs underline bg-white -mt-[46%] -ml-72 border-2 border-black">
+          <button className="text-blue-700 text-xs underline bg-white -mt-[43%] -ml-72 border-2 border-black">
             Read More
           </button>
         </div>
 
         {/* Footer Section */}
 
-       <div className="container mx-auto flex flex-col md:flex-row items-center md:items-start border-4 bg-gray-300 -mt-48 w-full">
+       <div className="container mx-auto flex flex-col md:flex-row items-center md:items-start border-4 bg-gray-300 mt-2 w-full">
                  <div className="w-full md:w-2/3 py-[12%] ml-[-8%] text-center md:text-left">
                    <h1 className="text-2xl ml-64 -mt-32">Heckto</h1>
                    <p className="text-xs ml-72 mt-4 hover:underline text-gray-500">

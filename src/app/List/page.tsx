@@ -11,12 +11,12 @@ import { CiZoomIn } from "react-icons/ci";
 
 export default function Shoplist() {
   return (
-    <section>
-      <div className="font-sans">
+    <section className="border-4">
+        <div className="font-sans">
         <Navbar />
       </div>
 
-      <div className="flex flex-row rounded-lg">
+        <div className="flex flex-row rounded-lg">
         <div className="text-2xs py-20 ml-48">
           <h1 className="text-blue-500">Shop List</h1>
           <p className="text-xs text-grey-800 -ml-4">Home</p>
@@ -28,7 +28,7 @@ export default function Shoplist() {
         <h1 className="text-3xl text-blue-600 mb-6">
           Ecommerce Accessories & Fashion Items
         </h1>
-        <p className="text-xs mb-2 -mt-4 ">
+        <p className="text-xs -mt-10 p-4">
           About 9,620 results (0.62 seconds)
         </p>
         <div className="text-xs pl-10 text-black -mt-5 py-10">
@@ -50,9 +50,9 @@ export default function Shoplist() {
             View:
           </h2>
         </div>
-        <div className="flex justify-start p-10 -ml-24">
+        <div className="flex justify-start p-10 m-8 -ml-24 border-2">
           {/* <img */}
-            <Image
+             <Image
             src="/Shop1.png"
             alt="Drawingroom"
             // Layout="fill"
@@ -74,9 +74,9 @@ export default function Shoplist() {
             <CiZoomIn className="flex flex-row text-xl -mt-5 ml-20" />
           </div>
         </div>
-        <div className="flex justify-start p-10 -ml-24">
+        <div className="flex justify-start p-10 m-8 -ml-24 border-2">
           {/* <img */}
-            <Image
+             <Image
             src="/Shop2.png"
             alt="Drawingroom"
             // Layout="fill"
@@ -98,9 +98,9 @@ export default function Shoplist() {
             <CiZoomIn className="flex flex-row text-xl -mt-5 ml-20" />
           </div>
         </div>
-        <div className="flex justify-start p-10 -ml-24">
+        <div className="flex justify-start p-10 m-8 -ml-24 border-2">
           {/* <img */}
-            <Image
+             <Image
             src="/Shop3.png"
             alt="Drawingroom"
             // Layout="fill"
@@ -122,9 +122,9 @@ export default function Shoplist() {
             <CiZoomIn className="flex flex-row text-xl -mt-5 ml-20" />
           </div>
         </div>
-        <div className="flex justify-start p-10 -ml-24">
+        <div className="flex justify-start p-10 m-8 -ml-24 border-2">
           {/* <img */}
-            <Image
+             <Image
             src="/Shop4.png"
             alt="Drawingroom"
             // Layout="fill"
@@ -146,9 +146,9 @@ export default function Shoplist() {
             <CiZoomIn className="flex flex-row text-xl -mt-5 ml-20" />
           </div>
         </div>
-        <div className="flex justify-start p-10 -ml-24">
+        <div className="flex justify-start p-10 m-8 -ml-24 border-2">
           {/* <img */}
-            <Image
+             <Image
             src="/Shop5.png"
             alt="Drawingroom"
             // Layout="fill"
@@ -170,9 +170,9 @@ export default function Shoplist() {
             <CiZoomIn className="flex flex-row text-xl -mt-5 ml-20" />
           </div>
         </div>
-        <div className="flex justify-start p-10 -ml-24">
+        <div className="flex justify-start p-10 m-8 -ml-24 border-2">
           {/* <img */}
-            <Image
+             <Image
             src="/Shop6.png"
             alt="Drawingroom"
             // Layout="fill"
@@ -194,9 +194,9 @@ export default function Shoplist() {
             <CiZoomIn className="flex flex-row text-xl -mt-5 ml-20" />
           </div>
         </div>
-        <div className="flex justify-start p-10 -ml-24">
+        <div className="flex justify-start p-10 m-8 -ml-24 border-2">
           {/* <img */}
-            <Image
+             <Image
             src="/Shop7.png"
             alt="Drawingroom"
             // Layout="fill"
@@ -221,7 +221,7 @@ export default function Shoplist() {
         <div className="text-center border-4 bg-gray-300 px-4 ">
           <div className="w-full h-32 relative mx-auto">
             {/* <img */}
-              <Image
+               <Image
               src="/image 1174.png"
               alt="Mini LCW Chair"
               // layout="fill"

@@ -38,7 +38,7 @@ export default function Navbar(){
                 </header>
             
         <div className="font-sans">
-            {/* r */}
+            {/* Navbar */}
             <div className="flex justify-between items-center px-8 py-2 bg-white shadow-md">
             <div className="text-2xl pl-10 font-bold text-black">Hekto</div>
             <nav className="flex space-x-8 pr-[87%] pl-48 bg-grey-300 text-blue-500">
@@ -46,19 +46,22 @@ export default function Navbar(){
             <Link href="/" className="text-slate-600 hover:text-black underline">
              Home
             </Link>
-            <Link href="#" className="text-slate-600 hover:text-black underline">
+            <Link href="/EcommAcesso" className="text-slate-600 hover:text-black underline">
               Pages
             </Link>
-            <Link href="#" className="text-slate-600 hover:text-black underline">
+            <Link href="/Products" className="text-slate-600 hover:text-black underline">
              Products
             </Link>
-            <Link href="/EcommAcesso" className="text-slate-600 hover:text-black underline">
+            <Link href="/" className="text-slate-600 hover:text-black underline">
+             Blog
+            </Link>
+            <Link href="/List" className="text-slate-600 hover:text-black underline">
              Shop
              <div>
              <RiArrowDropDownLine className="flex flex-row -mt-4 ml-8"/>
              </div>
             </Link>
-            <Link href="#" className="text-slate-600 hover:text-black underline">
+            <Link href="/contact" className="text-slate-600 hover:text-black underline">
              Contact
             </Link>
             </nav>

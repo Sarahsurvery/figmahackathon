@@ -104,14 +104,14 @@ export default function Acessories() {
       </div>
 
 
-      <div className="max-w-7xl mx-auto px-6 py-10">
-        <h1 className="text-3xl text-blue-600 mb-6">
+      <div className="max-w-7xl mx-auto px-6 py-4">
+        <h1 className="text-3xl text-blue-600 p-4">
           Ecommerce Accessories & Fashion Items
         </h1>
-        <p className="text-xs mb-2 -mt-4 ">
+        <p className="text-xs -mt-10 p-4">
           About 9,620 results (0.62 seconds)
         </p>
-        <div className="text-xs pl-10 text-black -mt-5 py-10">
+        <div className="text-xs text-black mt-4 py-10">
           <h1 className="text-xs ml-[60%] -mt-20 mb-2">Per Page:</h1>
           <h2 className="text-xs ml-[68%] -mt-6 mb-2">Sort By:</h2>
           </div>
@@ -138,7 +138,7 @@ export default function Acessories() {
               className="border rounded-lg shadow hover:shadow-lg transition"
             >
               {/* <img */}
-              <Image
+               <Image
                 src={product.Image}
                 alt={product.name}
                 className="w-full h-60 object-contain rounded-t-lg"
@@ -158,9 +158,10 @@ export default function Acessories() {
           ))}
         </div>
 
-        <div className="text-center border-4 bg-gray-300 px-4 ">
-          <div className="w-full h-32 relative mx-auto">
-            <img
+        <div className="text-center border-4 bg-gray-300 px-4 m-4">
+          <div className="w-full h-34 relative mx-auto ">
+            {/* <img */}
+            <Image
               src="/image 1174.png"
               alt="Mini LCW Chair"
               // layout="fill"

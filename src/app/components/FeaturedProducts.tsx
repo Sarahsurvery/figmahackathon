@@ -43,7 +43,7 @@ const FeaturedProducts = () => {
             className="relative border rounded-lg p-24 hover:underline transition-shadow group bg-white"
           >
             {/* <img */}
-             <Image 
+              <Image 
               src={product.Image}
               alt={product.name}
               className="rounded-md mb-4 w-full h-40 object-cover"

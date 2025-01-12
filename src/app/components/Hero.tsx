@@ -33,7 +33,7 @@ const Hero = () => {
           </button>
           <div className="w-full md:w-1/2 ml-[60%] mt-[-20%] md:justify-end">
             {/* <img */}
-             <Image  
+              <Image  
               src="/Sofaheader.png"
               alt="Sofa"
               className="w-2/3 md:w-full relative bottom-40"
