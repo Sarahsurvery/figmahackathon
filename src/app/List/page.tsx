@@ -51,8 +51,8 @@ export default function Shoplist() {
           </h2>
         </div>
         <div className="flex justify-start p-10 m-8 -ml-24 border-2">
-          {/* <img */}
-             <Image
+          <img
+            //  <Image
             src="/Shop1.png"
             alt="Drawingroom"
             // Layout="fill"
@@ -75,8 +75,8 @@ export default function Shoplist() {
           </div>
         </div>
         <div className="flex justify-start p-10 m-8 -ml-24 border-2">
-          {/* <img */}
-             <Image
+          <img
+            //  <Image
             src="/shop2.png"
             alt="Drawingroom"
             // Layout="fill"
@@ -99,8 +99,8 @@ export default function Shoplist() {
           </div>
         </div>
         <div className="flex justify-start p-10 m-8 -ml-24 border-2">
-          {/* <img */}
-             <Image
+          <img
+            //  <Image
             src="/shop3.png"
             alt="Drawingroom"
             // Layout="fill"
@@ -123,8 +123,8 @@ export default function Shoplist() {
           </div>
         </div>
         <div className="flex justify-start p-10 m-8 -ml-24 border-2">
-          {/* <img */}
-             <Image
+          <img
+            //  <Image
             src="/shop4.png"
             alt="Drawingroom"
             // Layout="fill"
@@ -147,8 +147,8 @@ export default function Shoplist() {
           </div>
         </div>
         <div className="flex justify-start p-10 m-8 -ml-24 border-2">
-          {/* <img */}
-             <Image
+          <img
+            //  <Image
             src="/shop5.png"
             alt="Drawingroom"
             // Layout="fill"
@@ -171,8 +171,8 @@ export default function Shoplist() {
           </div>
         </div>
         <div className="flex justify-start p-10 m-8 -ml-24 border-2">
-          {/* <img */}
-             <Image
+          <img
+            //  <Image
             src="/shop6.png"
             alt="Drawingroom"
             // Layout="fill"
@@ -195,8 +195,8 @@ export default function Shoplist() {
           </div>
         </div>
         <div className="flex justify-start p-10 m-8 -ml-24 border-2">
-          {/* <img */}
-             <Image
+          <img
+            //  <Image
             src="/shop7.png"
             alt="Drawingroom"
             // Layout="fill"
@@ -220,8 +220,8 @@ export default function Shoplist() {
         </div>
         <div className="text-center border-4 bg-gray-300 px-4 ">
           <div className="w-full h-32 relative mx-auto">
-            {/* <img */}
-               <Image
+            <img
+              //  <Image
               src="/image 1174.png"
               alt="Mini LCW Chair"
               // layout="fill"

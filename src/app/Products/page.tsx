@@ -2,10 +2,11 @@ import Image from 'next/image';
 import Navbar from "@/app/components/Navbar";
 import { CiFacebook, CiTwitter } from "react-icons/ci";
 import { FaInstagramSquare } from "react-icons/fa";
+import Footer from '../components/Footer';
 
 const ProductDetail = () => {
   return (
-    <div>
+    <div className="font-sans">
       <Navbar />
       <div className="flex flex-row rounded-lg">
         <div className="text-2xs py-20 ml-48">
@@ -21,15 +22,15 @@ const ProductDetail = () => {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="items-center ml-[60%] mt-[-26%] w-60">
-            {/* <img */}
-               <Image 
+            <img
+              //  <Image 
               src="/handbag.png"
               alt="Playwood Arm Chair"
               // className="w-60"
             />
           </div>
-          {/* <img */}
-            <Image 
+          <img
+            // <Image 
             src="/bag1.png"
             alt="Playwood Arm Chair"
             className="w-24 ml-[-96%] mt-[-32%]"
@@ -37,14 +38,14 @@ const ProductDetail = () => {
 
           {/* <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div> */}
-          {/* <img */}
-             <Image 
+          <img
+            //  <Image 
             src="/sidelamp.png"
             alt="Playwood Arm Chair"
             className="w-24 ml-12 mt-[-45%]"
           />
-          {/* <img */}
-             <Image 
+          <img
+            //  <Image 
             src="/wallet.png"
             alt="Playwood Arm Chair"
             className="w-24 -ml-[96%] -mt-28"
@@ -106,16 +107,16 @@ const ProductDetail = () => {
           <h2 className="text-xl mt-8 text-blue-600 hover:underline">
             Related Products
           </h2>
-          {/* <img */}
-             <Image
+          <img
+            //  <Image
             src="/boy.png"
             alt="boy"
             className="w-40 mt-10"
           />
           <h1 className="text-sm text-blue-600 p-2">Mens Fashion Wear</h1>
           <p className="text-sm text-blue-600 -mt-5 ml-8 p-2">$43.00</p>
-          {/* <img */}
-             <Image 
+          <img
+            //  <Image 
             src="/girlshadow.png"
             alt="boy"
             className="w-40 -mt-[23%] ml-48"
@@ -124,8 +125,8 @@ const ProductDetail = () => {
             Womens Fashion
           </h1>
           <p className="text-sm text-blue-600 -mt-2 ml-[24%]">$67.00</p>
-          {/* <img */}
-            <Image 
+          <img
+            // <Image 
             src="/women.png"
             alt="boy"
             className="w-40 -mt-64 ml-[35%]"
@@ -134,8 +135,8 @@ const ProductDetail = () => {
             Wolx Dummy Fashion
           </h1>
           <p className="text-sm text-blue-600 -mt-1 ml-[40%]">$67.00</p>
-          {/* <img */}
-            <Image 
+          <img
+            // <Image 
             src="/smartgirl.png"
             alt="boy"
             className="w-40 -mt-64 ml-[53%]"
@@ -149,8 +150,8 @@ const ProductDetail = () => {
 
       <div className="text-center border-4 bg-gray-300 px-4 m-4 mt-20">
         <div className="w-full h-34 relative mx-auto ">
-          {/* <img */}
-            <Image
+          <img
+            // <Image
             src="/image 1174.png"
             alt="Mini LCW Chair"
             // layout="fill"
@@ -158,72 +159,8 @@ const ProductDetail = () => {
           />
         </div>
       </div>
-
-      {/* Footer section */}
-      <div className="container mx-auto flex flex-col md:flex-row items-center md:items-start border-4 bg-gray-300 mt-20 w-full">
-        <div className="w-full md:w-2/3 py-[14%] ml-[-8%] text-center md:text-left">
-          <h1 className="text-2xl ml-52 -mt-32">Heckto</h1>
-          <p className="text-xs ml-48 mt-4 hover:underline text-gray-500">
-            Enter Email Address
-          </p>
-          <button className="bg-red-500 hover:bg-blue-800 ml-[50%] -mt-20 px-4 rounded">
-            Shop Now
-          </button>
-          <p className="text-xs ml-48 mt-4 text-gray-500">Contact Info</p>
-          <p className="text-xs ml-48 mt-4 text-gray-500">
-            17 Princess Road, London, Greater London NW1 8JR, UK
-          </p>
-        </div>
-      </div>
-      <div className="w-full md:w-2/3 ml-[30%] -mt-80 text-center md:text-left">
-        <h1 className="text-2xs ml-[22%] -mt-40 p-6">Categories</h1>
-        <ul className="text-gray-600 ml-40 text-xs">
-          <li className="mb-2">Laptops & Computers</li>
-          <li className="mb-4">Cameras & Photography</li>
-          <li className="mb-4">Smart Phones & Tablets</li>
-          <li className="mb-4">Video Games & Consoles</li>
-          <li className="mb-4">Waterproof Headphones</li>
-        </ul>
-      </div>
-
-      <div className="w-full md:w-2/3 ml-[50%] -mt-[30%] text-center md:text-left">
-        <h1 className="text-2xs ml-[20%] mt-[20%] p-2">Customer Care</h1>
-        <ul className="text-gray-600 ml-48 text-xs">
-          <li className="mb-2">My Account</li>
-          <li className="mb-4">Discount</li>
-          <li className="mb-4">Returns</li>
-          <li className="mb-4">Orders History</li>
-          <li className="mb-4">Order Tracking</li>
-        </ul>
-      </div>
-
-      <div className="w-full md:w-2/3 ml-[65%] -mt-[30%] text-center md:text-left">
-        <h1 className="text-2xs ml-[24%] mt-[23%] p-2">Pages</h1>
-        <ul className="text-gray-600 ml-48 text-xs">
-          <li className="mb-2"> Blog</li>
-          <li className="mb-4">Browse the Shop</li>
-          <li className="mb-4">Category</li>
-          <li className="mb-4">Pre-Built Pages</li>
-          <li className="mb-4">Visual Composer Elements</li>
-          <li className="mb-4">WooCommerce Pages</li>
-        </ul>
-
-        <div className="w-full md:w-2/3 ml-[65%] -mt-[30%] text-center md:text-left">
-          <p className="text-slate-500 mt-80 -ml-[195%]">
-            ©Webecy - All Rights Reserved
-          </p>
-
-          <div className="flex space-x-4 -ml-72 -mt-5">
-            <CiFacebook className="h-6 w-6 text-blue-500 hover:text-blue-700" />
-
-            <FaInstagramSquare className="h-6 w-6 text-pink-500 hover:text-pink-700" />
-
-            <CiTwitter className="h-6 w-6 text-pink-500 hover:text-pink-700" />
-          </div>
-        </div>
-      </div>
-    </div>
-    // </div>
+     <Footer/>
+     </div>
   );
 };
 

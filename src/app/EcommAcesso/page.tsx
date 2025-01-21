@@ -137,8 +137,8 @@ export default function Acessories() {
               key={index}
               className="border rounded-lg shadow hover:shadow-lg transition"
             >
-              {/* <img */}
-               <Image
+              <img
+              //  <Image
                 src={product.Image}
                 alt={product.name}
                 className="w-full h-60 object-contain rounded-t-lg"
@@ -160,8 +160,8 @@ export default function Acessories() {
 
         <div className="text-center border-4 bg-gray-300 px-4 m-4">
           <div className="w-full h-34 relative mx-auto ">
-            {/* <img */}
-            <Image
+            <img
+            // <Image
               src="/image 1174.png"
               alt="Mini LCW Chair"
               // layout="fill"

@@ -41,8 +41,8 @@ const LeatestProducts = () => {
             key={index}
             className="relative border rounded- px-32 hover:shadow-lg transition-shadow group bg-white"
           >
-            {/* <img */}
-            <Image 
+            <img
+            // <Image 
               src={product.Image}
               alt={product.name}
               className="rounded-md mb-2 w-full h-40 object-cover"

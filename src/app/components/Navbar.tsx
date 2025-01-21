@@ -15,7 +15,7 @@ export default function Navbar(){
             
                <div className="font-sans">
                 <header className="flex justify-between items-center bg-purple-500 shadow-md">
-                  <div className="text-2x font-bold text-white flex flex-row ml-80">
+                  <div className=" max-w-[1440px] text-2x font-bold text-white flex flex-row ml-80">
                     <FaRegEnvelope className="flex flex-row ml-[-80%] my-[1.5%]"/>
                   mhhasanul@gmail.com
                   

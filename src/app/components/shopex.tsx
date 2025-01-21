@@ -11,8 +11,8 @@ export default function Home() {
         <div className="flex justify-center px-10 gap-6">
           {/* Card 1 */}
           <div className="w-56 bg-white p-6 border-2 shadow rounded-lg">
-            {/* <img src="/free-delivery.png" alt="Delivery" width={80} height={50} className="ml-14"/> */}
-            <Image src="/free-delivery.png" alt="Delivery" width={80} height={50} className="ml-14"/>
+            <img src="/free-delivery.png" alt="Delivery" width={80} height={50} className="ml-14"/>
+            {/* <Image src="/free-delivery.png" alt="Delivery" width={80} height={50} className="ml-14"/> */}
             <h3 className="text-lg font-semibold mt-4">24/7 Support</h3>
             <p className="text-sm text-gray-500 mt-2">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa
@@ -22,8 +22,8 @@ export default function Home() {
 
           {/* Card 2 - Active */}
           <div className="w-56 bg-white p-6 shadow-lg border-2 rounded-lg transform scale-105">
-            {/* <img src="/cashback.png" alt="Support" width={80} height={50} className="ml-14"/> */}
-            <Image src="/cashback.png" alt="Support" width={80} height={50} className="ml-14"/>
+            <img src="/cashback.png" alt="Support" width={80} height={50} className="ml-14"/>
+            {/* <Image src="/cashback.png" alt="Support" width={80} height={50} className="ml-14"/> */}
             <h3 className="text-lg font-semibold mt-4">24/7 Support</h3>
             <p className="text-sm text-gray-500 mt-2">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa
@@ -33,8 +33,8 @@ export default function Home() {
 
           {/* Card 3 */}
           <div className="w-56 bg-white p-6 shadow border-2 rounded-lg">
-            {/* <img src="/sheild.png" alt="Support" width={80} height={50} className="ml-14"/> */}
-            <Image src="/sheild.png" alt="Support" width={80} height={50} className="ml-14"/>
+            <img src="/sheild.png" alt="Support" width={80} height={50} className="ml-14"/>
+            {/* <Image src="/sheild.png" alt="Support" width={80} height={50} className="ml-14"/> */}
             <h3 className="text-lg font-semibold mt-4">24/7 Support</h3>
             <p className="text-sm text-gray-500 mt-2">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa
@@ -44,8 +44,8 @@ export default function Home() {
 
           {/* Card 4 */}
           <div className="w-56 bg-white p-6 shadow border-2 rounded-lg">
-            {/* <img src="/clock.png" alt="Support" width={80} height={50} className="ml-14"/> */}
-            <Image src="/clock.png" alt="Support" width={80} height={50} className="ml-14"/>
+            <img src="/clock.png" alt="Support" width={80} height={50} className="ml-14"/>
+            {/* <Image src="/clock.png" alt="Support" width={80} height={50} className="ml-14"/> */}
             <h3 className="text-lg font-semibold mt-4">24/7 Support</h3>
             <p className="text-sm text-gray-500 mt-2">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Massa
@@ -60,8 +60,8 @@ export default function Home() {
         <div className="container mx-auto flex flex-wrap items-center px-6">
           {/* Sofa Image */}
           <div className="w-full md:w-1/2">
-            {/* <img */}
-            <Image
+            <img
+            // <Image
               src="/clubsofa.png"
               alt="Sofa"
               width={500}

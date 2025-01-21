@@ -36,14 +36,14 @@ const FeaturedProducts = () => {
       <h2 className="text-3xl font-bold text-center text-blue-900 hover:underline p-4">
         Featured Products
       </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="lg:max-w-[1440px] sm:max-w-[800px] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
         {products.map((product, index) => (
           <div
             key={index}
-            className="relative border rounded-lg p-24 hover:underline transition-shadow group bg-white"
+            className="relative border rounded-lg p-24 hover:underline md:block transition-shadow group bg-white"
           >
-            {/* <img */}
-              <Image 
+            <img
+              // <Image 
               src={product.Image}
               alt={product.name}
               className="rounded-md mb-4 w-full h-40 object-cover"
