@@ -10,75 +10,64 @@ import { CiUser } from "react-icons/ci";
 import { CiHeart } from "react-icons/ci";
 import { IoCartOutline } from "react-icons/io5";
 
-export default function Navbar(){
-    return(
-            
-               <div className="font-sans">
-                <header className="flex justify-between items-center bg-purple-500 shadow-md">
-                  <div className=" max-w-[1440px] text-2x font-bold text-white flex flex-row ml-80">
-                    <FaRegEnvelope className="flex flex-row ml-[-80%] my-[1.5%]"/>
-                  mhhasanul@gmail.com
-                  
-                  </div>
-                  <div className="text-2x flex flex-row py-2 font-bold text-white mr-[100%] justify-center">
-                    <FaPhoneVolume className="flex flex-row ml-[-50%] my-1" />
-                  (12345)67890
-                  
-                    <div className="flex flex-row px-40">English
-                    <RiArrowDropDownLine className="flex flex-row my-1"/></div>
-                    <div className="flex flex-rowitems-baseline ml-[-16%]">US
-                    <RiArrowDropDownLine className="flex flex-row my-1"/></div>
-                    <div className="flex flex-row px-10 ml-[-3%]">Login
-                    <CiUser className="flex flex-row my-1"/></div>
-                    <div className="flex flex-row px-10 ml-[-8%]">Wishlist
-                    <CiHeart className="flex flex-row text-xl my-1"/></div>
-                    <IoCartOutline className="flex flex-row text-xl mt-1 ml-[-4%]"/>
-                  </div>
-                  
-                </header>
-            
-        <div className="font-sans">
-            {/* Navbar */}
-            <div className="flex justify-between items-center px-8 py-2 bg-white shadow-md">
-            <div className="text-2xl pl-10 font-bold text-black">Hekto</div>
-            <nav className="flex space-x-8 pr-[87%] pl-48 bg-grey-300 text-blue-500">
-        
-            <Link href="/" className="text-slate-600 hover:text-black underline">
-             Home
-            </Link>
-            <Link href="/EcommAcesso" className="text-slate-600 hover:text-black underline">
-              Pages
-            </Link>
-            <Link href="/Products" className="text-slate-600 hover:text-black underline">
-             Products
-            </Link>
-            <Link href="/" className="text-slate-600 hover:text-black underline">
-             Blog
-            </Link>
-            <Link href="/List" className="text-slate-600 hover:text-black underline">
-             Shop
-             <div>
-             <RiArrowDropDownLine className="flex flex-row -mt-4 ml-8"/>
-             </div>
-            </Link>
-            <Link href="/contact" className="text-slate-600 hover:text-black underline">
-             Contact
-            </Link>
-            </nav>
-        </div>
-            <div className="flex items-center space-x-6 -m-10 px-[85%]">
-            <div className="hidden lg:flex items-center bg-slate-100 rounded-md py-2">
-                <input
-                 type="text"
-                 placeholder="Search ..."
-                 className="bg-slate-100 outline-none text-sm"
-            />
+export default function Navbar() {
+  return (
+    <div className="font-sans">
+      <header className="bg-purple-500 sticky top-0 z-50 shadow-md">
+        <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between py-2">
+          <div className="flex items-center space-x-2">
+            <FaRegEnvelope className="text-white" />
+            <span className="text-white text-sm">mhhasanul@gmail.com</span>
+          </div>
 
-        <CiSearch />
+          <div className="flex items-center space-x-4">
+            <FaPhoneVolume className="text-white" />
+            <span className="text-white text-sm">(12345)67890</span>
+            <div className="flex items-center space-x-1">
+              <span className="text-white">English</span>
+              <RiArrowDropDownLine className="text-white" />
+            </div>
+            <div className="flex items-center space-x-1">
+              <span className="text-white">US</span>
+              <RiArrowDropDownLine className="text-white" />
+            </div>
+            <div className="flex items-center space-x-1">
+              <span className="text-white">Login</span>
+              <CiUser className="text-white" />
+            </div>
+            <div className="flex items-center space-x-1">
+              <span className="text-white">Wishlist</span>
+              <CiHeart className="text-white" />
+            </div>
+            <IoCartOutline className="text-white text-xl" />
           </div>
+        </div>
+      </header>
+
+      <div className="bg-white border-gray-200 px-4 lg:px-6 py-2.5">
+        <div className="container mx-auto flex items-center justify-between">
+          <span className="self-center text-xl font-bold text-black">Hekto</span>
+          <nav className="hidden md:flex space-x-8 text-blue-500">
+            <Link href="/" className="text-black hover:text-blue-600">Home</Link>
+            <Link href="/EcommAcesso" className="text-black hover:text-blue-600">Pages</Link>
+            <Link href="/Products" className="text-black hover:text-blue-600">Products</Link>
+            <Link href="#" className="text-black hover:text-blue-600">Blog</Link>
+            <Link href="/List" className="text-black hover:text-blue-600">Shop</Link>
+            <Link href="/Contact" className="text-black hover:text-blue-600">Contact</Link>
+          </nav>
+        </div>
+
+        <div className="flex items-center justify-end mt-4 md:mt-0">
+          <div className="hidden lg:flex items-center bg-slate-100 rounded-md py-2 px-4">
+            <input
+              type="text"
+              placeholder="Search ..."
+              className="bg-slate-100 outline-none text-sm w-full"
+            />
+            <CiSearch className="text-gray-500" />
           </div>
-                  
-          </div>
-          </div>
-    )
+        </div>
+      </div>
+    </div>
+  );
 }

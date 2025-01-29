@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { AiOutlineLeft, AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
-import { CartContext } from "./CartContext";
+import { CartContext } from "@/app/context/CartContext";
 import Image from "next/image";
 import { urlFor } from "@/sanity/lib/image";
 import { TiDeleteOutline } from "react-icons/ti";
@@ -18,6 +18,24 @@ const Cart = () => {
   const handleClose = () => {
     setShowCart(!showCart);
   };
+  const handleCheckout = async () => {
+    try{
+      const response = await fetch('http://localhost:3001/api/checkout',{
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({products:cartItems}),
+      });
+      const data = await response.json();
+      if(data.url){
+        window.location.href= data.url
+      }
+    }catch(error){
+      console.error("Error during checkout",error)
+    }
+    
+  }
   return (
     <div className="cart-wrapper">
       <div className="cart-container">
@@ -84,7 +102,7 @@ const Cart = () => {
           // <div className="absolute right-[5px] bottom-[12px] w-[100%] p-[30px] ">
 
           <div className="m-auto">
-            <button type="button" className="text-black">
+            <button onClick={handleCheckout} type="button" className="text-black">
               Pay with stripe
             </button>
           </div>

@@ -1,6 +1,6 @@
 
 import Image from "next/image"
-import { Product } from "../type/Product"
+import { Product } from "../../type/Product"
 
 export default function ProductGrid({products,addToCart}:{products:Product[],addToCart:(product:Product)=>void}){
   return (

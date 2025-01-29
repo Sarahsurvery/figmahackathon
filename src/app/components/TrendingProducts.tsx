@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="bg-gray-50">
+    <div className="bg-gray-50 min-h-screen">
       {/* Trending Products Section */}
       <section className="py-12 px-4">
         <h2 className="text-3xl font-bold text-center text-gray-900 mb-8">
@@ -10,11 +10,10 @@ export default function Home() {
         </h2>
 
         {/* Product Cards */}
-        <div className="flex justify-center gap-6 flex-wrap mb-12">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 justify-center">
           {/* Product Card 1 */}
-          <div className="w-56 bg-white rounded-lg shadow-lg p-4 border-2 border-purple-500 transform scale-105">
-            <img
-            // <Image
+          <div className="bg-white rounded-lg shadow-lg p-4 border-2 border-purple-500 hover:scale-105 transition-transform">
+            <Image
               src="/chair.png"
               alt="Cantilever Chair"
               width={150}
@@ -22,7 +21,7 @@ export default function Home() {
               className="mx-auto"
             />
             <h3 className="text-gray-700 text-sm font-semibold mt-4 text-center">
-              Cantilever chair
+              Cantilever Chair
             </h3>
             <p className="text-center text-gray-500 text-sm">
               <span className="text-red-500 font-semibold">$26.00</span>{" "}
@@ -31,9 +30,8 @@ export default function Home() {
           </div>
 
           {/* Product Card 2 */}
-          <div className="w-56 bg-white rounded-lg shadow-lg p-4">
-            <img
-            // <Image
+          <div className="bg-white rounded-lg shadow-lg p-4 hover:scale-105 transition-transform">
+            <Image
               src="/chair5.png"
               alt="Cantilever Chair"
               width={150}
@@ -41,7 +39,7 @@ export default function Home() {
               className="mx-auto"
             />
             <h3 className="text-gray-700 text-sm font-semibold mt-4 text-center">
-              Cantilever chair
+              Cantilever Chair
             </h3>
             <p className="text-center text-gray-500 text-sm">
               <span className="text-red-500 font-semibold">$26.00</span>{" "}
@@ -50,9 +48,8 @@ export default function Home() {
           </div>
 
           {/* Product Card 3 */}
-          <div className="w-56 bg-white rounded-lg shadow-lg p-4">
-            <img
-            // <Image
+          <div className="bg-white rounded-lg shadow-lg p-4 hover:scale-105 transition-transform">
+            <Image
               src="/comfort5.png"
               alt="Cantilever Chair"
               width={150}
@@ -60,7 +57,7 @@ export default function Home() {
               className="mx-auto"
             />
             <h3 className="text-gray-700 text-sm font-semibold mt-4 text-center">
-              Cantilever chair
+              Cantilever Chair
             </h3>
             <p className="text-center text-gray-500 text-sm">
               <span className="text-red-500 font-semibold">$26.00</span>{" "}
@@ -70,9 +67,8 @@ export default function Home() {
         </div>
 
         {/* Discount Section */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-          {/* Discount Card 1 */}
-          <div className="bg-pink-100 p-6 w-[46%] ml-44 rounded-lg shadow-md">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12">
+          <div className="bg-pink-100 p-6 rounded-lg shadow-md hover:shadow-lg">
             <h3 className="text-lg font-semibold text-gray-900 mb-2">
               23% off in all products
             </h3>
@@ -83,8 +79,7 @@ export default function Home() {
               Shop Now
             </a>
             <div className="mt-4">
-              <img
-              // <Image
+              <Image
                 src="/imgclock.png"
                 alt="Product"
                 width={100}
@@ -94,8 +89,7 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Discount Card 2 */}
-          <div className="bg-blue-100 p-6 w-[46%] ml-[-28%] rounded-lg shadow-md">
+          <div className="bg-blue-100 p-6 rounded-lg shadow-md hover:shadow-lg">
             <h3 className="text-lg font-semibold text-gray-900 mb-2">
               23% off in all products
             </h3>
@@ -106,8 +100,7 @@ export default function Home() {
               View Collection
             </a>
             <div className="mt-4">
-              <img
-              // <Image
+              <Image
                 src="/draw.png"
                 alt="Product"
                 width={200}
@@ -119,54 +112,45 @@ export default function Home() {
         </div>
 
         {/* Product List */}
-        <div className="mt-12 ml-[64%]">
-         
-          <ul className="space-x-6 w-64 h-64 -mt-72 -ml-12 bg-slate-200 rounded-lg shadow-border-2">
-            <li className="flex justify-between text-gray-700 py-2">
-              <img
-              // <Image
+        <div className="mt-12 flex justify-center">
+          <ul className="space-y-4 w-64 bg-slate-200 rounded-lg shadow-lg p-4">
+            <li className="flex items-center justify-between text-gray-700 py-2">
+              <Image
                 src="/img1.png"
                 alt="chair"
                 width={50}
                 height={50}
                 className="rounded-lg"
               />
-              <span className="text-xs -ml-12 py-2">Executive Seat chair</span>
-              <div className="p-4">
-                <span className="text-xs -ml-36">$32.00</span>
-              </div>
+              <span className="text-xs">Executive Seat Chair</span>
+              <span className="text-xs">$32.00</span>
             </li>
-            <li className="flex justify-between text-gray-700">
-              <img
-              // <Image
+            <li className="flex items-center justify-between text-gray-700 py-2">
+              <Image
                 src="/img2.png"
                 alt="chair"
                 width={50}
                 height={50}
-                className="rounded-lg -ml-6"
+                className="rounded-lg"
               />
-              <span className="text-xs -ml-12 py-2">Executive Seat chair</span>
-              <div className="p-4">
-                <span className="text-xs -ml-36">$32.00</span>
-              </div>
+              <span className="text-xs">Executive Seat Chair</span>
+              <span className="text-xs">$32.00</span>
             </li>
-            <li className="flex justify-between text-gray-700">
-              <img
-              // <Image
+            <li className="flex items-center justify-between text-gray-700 py-2">
+              <Image
                 src="/img3.png"
                 alt="chair"
                 width={50}
                 height={50}
-                className="rounded-lg -ml-6"
+                className="rounded-lg"
               />
-              <span className="text-xs -ml-12 py-2">Executive Seat chair</span>
-              <div className="p-4">
-                <span className="text-xs -ml-36">$32.00</span>
-              </div>
+              <span className="text-xs">Executive Seat Chair</span>
+              <span className="text-xs">$32.00</span>
             </li>
-            </ul>
+          </ul>
         </div>
       </section>
     </div>
   );
 }
+
